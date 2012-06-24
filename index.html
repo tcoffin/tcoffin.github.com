@@ -4,9 +4,9 @@ title: [insert clever play on lastname here]
 ---
 
 <div id="blog_posts">
+	{% for post in site.posts %}
 	<li>
-		{% for post in site.posts %}
 		<a href="{{ post.url }}">{{ post.title }}</a> - <span>{{ post.date | date_to_string }}</span>
-		{% endfor %}
 	</li>
+	{% endfor %}
 </div>
