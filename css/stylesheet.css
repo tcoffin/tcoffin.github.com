@@ -25,6 +25,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px;
 }
 
+h1 a {
+  color: #b5e853;
+	text-decoration: none;
+}
+
 li {
   line-height: 1.4 ;
 }
@@ -85,6 +90,10 @@ section img {
   max-width: 100%
 }
 
+#post_title a {
+	text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -101,6 +110,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #main_content h2 {
   font-size: 24px;
+}
+
+#main_content h2.inline {
+	display: inline;
 }
 
 #main_content h3 {

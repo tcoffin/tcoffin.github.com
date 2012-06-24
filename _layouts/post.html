@@ -20,6 +20,9 @@
 
 		<div class="container">
 			<section id="main_content">
+				<section id="post_title">
+					<a href="{{ page.url }}"><h2 class="inline">{{ page.title }}</h2>&nbsp; <h6>{{ page.date | date: "%d %B %Y" }}</h6></a>
+				</section>
 			{{ content }}
 			</section>
 		</div>
